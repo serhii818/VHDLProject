@@ -1,0 +1,11 @@
+[CACHESIMPLE|Aldec.SymbolsCommands.7]
+Built-in symbols=0
+Zadanie12=0
+[COMPILESTATUS|.\src\Uklad.vhd]
+FileTimeLow=1508104950
+FileTimeHigh=31108938
+Status=Modified
+[COMPILESTATUS|.\src\Uklad_tb.vhd]
+FileTimeLow=1409780312
+FileTimeHigh=31108938
+Status=Modified

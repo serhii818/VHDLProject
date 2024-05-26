@@ -1,0 +1,24 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=Zadanie12
+[Library]
+Zadanie12=.\Zadanie12\Zadanie12.lib
+[$LibMap$]
+Zadanie12=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+[Files]
+/Uklad.vhd=-1
+/Uklad_tb.vhd=-1
+[Files.Data]
+.\src\Uklad.vhd=VHDL Source Code
+.\src\Uklad_tb.vhd=VHDL Source Code
