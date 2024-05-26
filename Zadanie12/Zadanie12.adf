@@ -4,7 +4,7 @@ VCS=0
 version=4
 Current Config=compile
 [Configurations]
-compile=Zadanie12
+compile=zadanie12
 [Library]
 Zadanie12=.\Zadanie12\Zadanie12.lib
 [$LibMap$]
@@ -23,6 +23,6 @@ FAMILY=
 .\src\Uklad.vhd=VHDL Source Code
 .\src\Uklad_tb.vhd=VHDL Source Code
 [HierarchyViewer]
-HierarchyInformation=
+HierarchyInformation=uklad|uklad|0
 ShowHide=ShowTopLevel
 Selected=

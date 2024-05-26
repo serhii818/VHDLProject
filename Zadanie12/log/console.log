@@ -1,4 +1,322 @@
-# Design: Design Zadanie12 already active.
-# DESIGN: Default Design Language: VHDL
-# DESIGN: Default BDE Language: VHDL
-# DESIGN: Flow Manager: Not Defined
+acom -reorder -O3 -e 100 -work Zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Top-level unit(s) detected:
+# Entity => Uklad
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Error: COMP96_0026: Uklad.vhd : (16, 14): Type definition expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Error: COMP96_0026: Uklad.vhd : (16, 14): Type definition expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Error: COMP96_0026: Uklad.vhd : (16, 14): Type definition expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Error: COMP96_0026: Uklad.vhd : (16, 22): Type definition expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Error: COMP96_0026: Uklad.vhd : (16, 22): Type definition expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Error: COMP96_0122: Uklad.vhd : (17, 1): Symbol "stan_ukladu" has already been declared in this scope.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Error: COMP96_0020: Uklad.vhd : (17, 1): Variable can be declared only in a process or subprogram.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Error: COMP96_0077: Uklad.vhd : (17, 30): Undefined type of expression. Expected type 'INTEGER'.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Warning: DAGGEN_0002: Uklad.vhd : (19, 0): Process has no effect - no sequential statements.
+# Compile success 0 Errors 1 Warnings  Analysis time :  94.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Error: COMP96_0022: Uklad.vhd : (20, 14): Identifier or character literal expected.
+# Error: COMP96_0022: Uklad.vhd : (20, 21): Identifier or character literal expected.
+# Error: COMP96_0022: Uklad.vhd : (20, 28): Identifier or character literal expected.
+# Error: COMP96_0022: Uklad.vhd : (20, 35): Identifier or character literal expected.
+# Error: COMP96_0022: Uklad.vhd : (20, 42): Identifier or character literal expected.
+# Error: COMP96_0022: Uklad.vhd : (20, 49): Identifier or character literal expected.
+# Error: COMP96_0022: Uklad.vhd : (20, 56): Identifier or character literal expected.
+# Error: COMP96_0022: Uklad.vhd : (20, 63): Identifier or character literal expected.
+# Compile failure 8 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Error: COMP96_0617: Uklad.vhd : (25, 8): Assignment target incompatible with right side. Cannot convert 'STD_LOGIC_VECTOR' to 'kod'.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Error: COMP96_0617: Uklad.vhd : (25, 8): Assignment target incompatible with right side. Cannot convert 'STD_LOGIC_VECTOR' to 'kod'.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Error: COMP96_0015: Uklad.vhd : (20, 45): ';' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Error: COMP96_0015: Uklad.vhd : (20, 45): ';' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Error: COMP96_0018: Uklad.vhd : (20, 16): Identifier expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Error: COMP96_0149: Uklad.vhd : (25, 12): Explicit type conversions are allowed between closely related types only.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Error: COMP96_0149: Uklad.vhd : (25, 16): Explicit type conversions are allowed between closely related types only.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Error: COMP96_0078: Uklad.vhd : (25, 16): Unknown identifier "unsigned".
+# Error: COMP96_0133: Uklad.vhd : (25, 16): Cannot find object declaration.
+# Error: COMP96_0289: Uklad.vhd : (25, 16): Prefix of index must be an array.
+# Error: COMP96_0149: Uklad.vhd : (25, 16): Explicit type conversions are allowed between closely related types only.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Error: COMP96_0149: Uklad.vhd : (26, 16): Explicit type conversions are allowed between closely related types only.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Warning: DAGGEN_0002: Uklad.vhd : (28, 0): Process has no effect - no sequential statements.
+# Compile success 0 Errors 1 Warnings  Analysis time :  78.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Warning: DAGGEN_0002: Uklad.vhd : (36, 0): Process has no effect - no sequential statements.
+# Compile success 0 Errors 1 Warnings  Analysis time :  63.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Warning: DAGGEN_0002: Uklad.vhd : (45, 0): Process has no effect - no sequential statements.
+# Compile success 0 Errors 1 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Error: COMP96_0098: Uklad.vhd : (50, 6): 'BOOLEAN' type expected.
+# Error: COMP96_0098: Uklad.vhd : (52, 9): 'BOOLEAN' type expected.
+# Error: COMP96_0098: Uklad.vhd : (54, 9): 'BOOLEAN' type expected.
+# Error: COMP96_0098: Uklad.vhd : (56, 9): 'BOOLEAN' type expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Error: COMP96_0015: Uklad.vhd : (56, 9): ';' expected.
+# Error: COMP96_0019: Uklad.vhd : (56, 9): Keyword 'end' expected.
+# Error: COMP96_0019: Uklad.vhd : (57, 3): Keyword 'end' expected.
+# Error: COMP96_0015: Uklad.vhd : (60, 6): ';' expected.
+# Error: COMP96_0016: Uklad.vhd : (60, 13): Design unit declaration expected.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Error: COMP96_0015: Uklad.vhd : (54, 13): ')' expected.
+# Error: COMP96_0019: Uklad.vhd : (54, 17): Keyword 'then' expected.
+# Error: COMP96_0019: Uklad.vhd : (57, 3): Keyword 'end' expected.
+# Error: COMP96_0019: Uklad.vhd : (60, 5): Keyword 'end' expected.
+# Error: COMP96_0016: Uklad.vhd : (60, 10): Design unit declaration expected.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Error: COMP96_0019: Uklad.vhd : (58, 14): Keyword 'is' expected.
+# Error: COMP96_0019: Uklad.vhd : (60, 5): Keyword 'end' expected.
+# Error: COMP96_0019: Uklad.vhd : (61, 5): Keyword 'end' expected.
+# Error: COMP96_0019: Uklad.vhd : (62, 5): Keyword 'end' expected.
+# Error: COMP96_0016: Uklad.vhd : (62, 10): Design unit declaration expected.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Error: COMP96_0019: Uklad.vhd : (63, 7): Keyword 'case' expected.
+# Error: COMP96_0036: Uklad.vhd : (63, 9): Boolean expression expected.
+# Error: COMP96_0019: Uklad.vhd : (64, 6): Keyword 'if' expected.
+# Error: COMP96_0015: Uklad.vhd : (64, 6): ';' expected.
+# Error: COMP96_0019: Uklad.vhd : (71, 5): Keyword 'process' expected.
+# Error: COMP96_0019: Uklad.vhd : (72, 0): Keyword 'end' expected.
+# Compile failure 6 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Error: COMP96_0617: Uklad.vhd : (59, 24): Assignment target incompatible with right side. Cannot convert 'STD_LOGIC_VECTOR' to 'INTEGER'.
+# Error: COMP96_0617: Uklad.vhd : (60, 24): Assignment target incompatible with right side. Cannot convert 'STD_LOGIC_VECTOR' to 'INTEGER'.
+# Error: COMP96_0617: Uklad.vhd : (61, 24): Assignment target incompatible with right side. Cannot convert 'STD_LOGIC_VECTOR' to 'INTEGER'.
+# Error: COMP96_0617: Uklad.vhd : (62, 24): Assignment target incompatible with right side. Cannot convert 'STD_LOGIC_VECTOR' to 'INTEGER'.
+# Error: COMP96_0301: Uklad.vhd : (58, 4): The choice 'others' must be present when all alternatives are not covered.
+# Error: COMP96_0617: Uklad.vhd : (67, 13): Assignment target incompatible with right side. Cannot convert 'INTEGER' to 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0617: Uklad.vhd : (68, 13): Assignment target incompatible with right side. Cannot convert 'INTEGER' to 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0617: Uklad.vhd : (69, 13): Assignment target incompatible with right side. Cannot convert 'INTEGER' to 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0617: Uklad.vhd : (70, 13): Assignment target incompatible with right side. Cannot convert 'INTEGER' to 'STD_LOGIC_VECTOR'.
+# Compile failure 9 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Error: COMP96_0301: Uklad.vhd : (58, 4): The choice 'others' must be present when all alternatives are not covered.
+# Error: COMP96_0617: Uklad.vhd : (67, 13): Assignment target incompatible with right side. Cannot convert 'INTEGER' to 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0617: Uklad.vhd : (68, 13): Assignment target incompatible with right side. Cannot convert 'INTEGER' to 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0617: Uklad.vhd : (69, 13): Assignment target incompatible with right side. Cannot convert 'INTEGER' to 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0617: Uklad.vhd : (70, 13): Assignment target incompatible with right side. Cannot convert 'INTEGER' to 'STD_LOGIC_VECTOR'.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Error: COMP96_0019: Uklad.vhd : (63, 14): Keyword 'end' expected.
+# Error: COMP96_0019: Uklad.vhd : (64, 4): Keyword 'case' expected.
+# Error: COMP96_0019: Uklad.vhd : (64, 8): Keyword 'if' expected.
+# Error: COMP96_0015: Uklad.vhd : (64, 8): ';' expected.
+# Error: COMP96_0029: Uklad.vhd : (64, 12): Expression expected.
+# Error: COMP96_0019: Uklad.vhd : (65, 7): Keyword 'process' expected.
+# Error: COMP96_0015: Uklad.vhd : (66, 6): ';' expected.
+# Error: COMP96_0016: Uklad.vhd : (66, 13): Design unit declaration expected.
+# Compile failure 8 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Error: COMP96_0019: Uklad.vhd : (63, 19): Keyword 'end' expected.
+# Error: COMP96_0019: Uklad.vhd : (64, 4): Keyword 'case' expected.
+# Error: COMP96_0019: Uklad.vhd : (64, 8): Keyword 'if' expected.
+# Error: COMP96_0015: Uklad.vhd : (64, 8): ';' expected.
+# Error: COMP96_0029: Uklad.vhd : (64, 12): Expression expected.
+# Error: COMP96_0019: Uklad.vhd : (65, 7): Keyword 'process' expected.
+# Error: COMP96_0015: Uklad.vhd : (66, 6): ';' expected.
+# Error: COMP96_0016: Uklad.vhd : (66, 13): Design unit declaration expected.
+# Compile failure 8 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Error: COMP96_0617: Uklad.vhd : (69, 13): Assignment target incompatible with right side. Cannot convert 'INTEGER' to 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0617: Uklad.vhd : (70, 13): Assignment target incompatible with right side. Cannot convert 'INTEGER' to 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0617: Uklad.vhd : (71, 13): Assignment target incompatible with right side. Cannot convert 'INTEGER' to 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0617: Uklad.vhd : (72, 13): Assignment target incompatible with right side. Cannot convert 'INTEGER' to 'STD_LOGIC_VECTOR'.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Error: COMP96_0617: Uklad.vhd : (73, 13): Assignment target incompatible with right side. Cannot convert 'INTEGER' to 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0617: Uklad.vhd : (74, 13): Assignment target incompatible with right side. Cannot convert 'INTEGER' to 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0617: Uklad.vhd : (75, 13): Assignment target incompatible with right side. Cannot convert 'INTEGER' to 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0617: Uklad.vhd : (76, 13): Assignment target incompatible with right side. Cannot convert 'INTEGER' to 'STD_LOGIC_VECTOR'.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Warning: DAGGEN_0002: Uklad.vhd : (69, 0): Process has no effect - no sequential statements.
+# Compile success 0 Errors 1 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Warning: DAGGEN_0002: Uklad.vhd : (69, 0): Process has no effect - no sequential statements.
+# Compile success 0 Errors 1 Warnings  Analysis time :  62.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Warning: DAGGEN_0002: Uklad.vhd : (69, 0): Process has no effect - no sequential statements.
+# Compile success 0 Errors 1 Warnings  Analysis time :  32.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Error: COMP96_0123: Uklad.vhd : (52, 4): Variable or constant cannot be the target of a signal assignment.
+# Error: COMP96_0143: Uklad.vhd : (52, 4): Object "zaprogramuj" cannot be written.
+# Error: COMP96_0263: Uklad.vhd : (52, 4): Type names are not allowed as primaries.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Warning: DAGGEN_0002: Uklad.vhd : (68, 0): Process has no effect - no sequential statements.
+# Compile success 0 Errors 1 Warnings  Analysis time :  62.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Error: COMP96_0019: Uklad.vhd : (83, 2): Keyword 'when' expected.
+# Error: COMP96_0015: Uklad.vhd : (83, 2): ';' expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Error: ELBWRITE_0028: Uklad.vhd : (76, 0): The unresolved signal "stan_zaprogramuwania" received values from multiple sources at 76 and 52 lines.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Error: ELBWRITE_0028: Uklad.vhd : (77, 0): The unresolved signal "stan" received values from multiple sources at 77 and 50 lines.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
