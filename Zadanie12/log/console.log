@@ -1,322 +1,818 @@
-acom -reorder -O3 -e 100 -work Zadanie12 -2002  $dsn/src/Uklad.vhd
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+uklad_tb uklad_tb uklad_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5450 kB (elbread=427 elab2=4883 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\SOFTWARERE\Aldec\Zadanie12\Zadanie12\src\wave.asdb
+#  21:21, Sunday, May 26, 2024
+#  Simulation has been initialized
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+uklad_tb uklad_tb uklad_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5450 kB (elbread=427 elab2=4883 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\SOFTWARERE\Aldec\Zadanie12\Zadanie12\src\wave.asdb
+#  21:21, Sunday, May 26, 2024
+#  Simulation has been initialized
+# VSIM: 11 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'D:/SOFTWARERE/Aldec/Zadanie12/Zadanie12/src/wave.asdb'.
+run @1us
+# KERNEL: stopped at time: 1 us
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+uklad_tb uklad_tb uklad_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd $dsn/src/Uklad_tb.vhd
 # Compile Entity "Uklad"
 # Compile Architecture "Uklad" of Entity "Uklad"
-# Top-level unit(s) detected:
-# Entity => Uklad
+# Compile Entity "Uklad_tb"
+# Compile Architecture "Uklad_tb" of Entity "Uklad_tb"
 # Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.0 [s].
-acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
-# Compile Entity "Uklad"
-# Compile Architecture "Uklad" of Entity "Uklad"
-# Error: COMP96_0026: Uklad.vhd : (16, 14): Type definition expected.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  31.0 [ms]
-acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
-# Compile Entity "Uklad"
-# Compile Architecture "Uklad" of Entity "Uklad"
-# Error: COMP96_0026: Uklad.vhd : (16, 14): Type definition expected.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
-acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
-# Compile Entity "Uklad"
-# Compile Architecture "Uklad" of Entity "Uklad"
-# Error: COMP96_0026: Uklad.vhd : (16, 14): Type definition expected.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
-acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
-# Compile Entity "Uklad"
-# Compile Architecture "Uklad" of Entity "Uklad"
-# Error: COMP96_0026: Uklad.vhd : (16, 22): Type definition expected.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
-acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
-# Compile Entity "Uklad"
-# Compile Architecture "Uklad" of Entity "Uklad"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [ms]
-acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
-# Compile Entity "Uklad"
-# Compile Architecture "Uklad" of Entity "Uklad"
-# Error: COMP96_0026: Uklad.vhd : (16, 22): Type definition expected.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
-acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
-# Compile Entity "Uklad"
-# Compile Architecture "Uklad" of Entity "Uklad"
-# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
-acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
-# Compile Entity "Uklad"
-# Compile Architecture "Uklad" of Entity "Uklad"
-# Error: COMP96_0122: Uklad.vhd : (17, 1): Symbol "stan_ukladu" has already been declared in this scope.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  15.0 [ms]
-acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
-# Compile Entity "Uklad"
-# Compile Architecture "Uklad" of Entity "Uklad"
-# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
-acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
-# Compile Entity "Uklad"
-# Compile Architecture "Uklad" of Entity "Uklad"
-# Error: COMP96_0020: Uklad.vhd : (17, 1): Variable can be declared only in a process or subprogram.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
-acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
-# Compile Entity "Uklad"
-# Compile Architecture "Uklad" of Entity "Uklad"
-# Error: COMP96_0077: Uklad.vhd : (17, 30): Undefined type of expression. Expected type 'INTEGER'.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  31.0 [ms]
-acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
-# Compile Entity "Uklad"
-# Compile Architecture "Uklad" of Entity "Uklad"
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5449 kB (elbread=427 elab2=4883 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\SOFTWARERE\Aldec\Zadanie12\Zadanie12\src\wave.asdb
+#  21:24, Sunday, May 26, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/SOFTWARERE/Aldec/Zadanie12/Zadanie12/src/wave.asdb'.
+run @1us
+# KERNEL: stopped at time: 1 us
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad_tb.vhd
+# Compile Entity "Uklad_tb"
+# Compile Architecture "Uklad_tb" of Entity "Uklad_tb"
 # Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+uklad_tb uklad_tb uklad_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5450 kB (elbread=427 elab2=4883 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\SOFTWARERE\Aldec\Zadanie12\Zadanie12\src\wave.asdb
+#  21:25, Sunday, May 26, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/SOFTWARERE/Aldec/Zadanie12/Zadanie12/src/wave.asdb'.
+run @1us
+# KERNEL: stopped at time: 1 us
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad_tb.vhd
+# Compile Entity "Uklad_tb"
+# Compile Architecture "Uklad_tb" of Entity "Uklad_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+uklad_tb uklad_tb uklad_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5448 kB (elbread=427 elab2=4881 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\SOFTWARERE\Aldec\Zadanie12\Zadanie12\src\wave.asdb
+#  21:25, Sunday, May 26, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/SOFTWARERE/Aldec/Zadanie12/Zadanie12/src/wave.asdb'.
+run @1us
+# KERNEL: stopped at time: 1 us
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad_tb.vhd
+# Compile Entity "Uklad_tb"
+# Compile Architecture "Uklad_tb" of Entity "Uklad_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+uklad_tb uklad_tb uklad_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5450 kB (elbread=427 elab2=4883 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\SOFTWARERE\Aldec\Zadanie12\Zadanie12\src\wave.asdb
+#  21:26, Sunday, May 26, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/SOFTWARERE/Aldec/Zadanie12/Zadanie12/src/wave.asdb'.
+run @1us
+# KERNEL: stopped at time: 1 us
 acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
 # Compile Entity "Uklad"
 # Compile Architecture "Uklad" of Entity "Uklad"
-# Warning: DAGGEN_0002: Uklad.vhd : (19, 0): Process has no effect - no sequential statements.
-# Compile success 0 Errors 1 Warnings  Analysis time :  94.0 [ms]
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+uklad_tb uklad_tb uklad_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5449 kB (elbread=427 elab2=4883 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\SOFTWARERE\Aldec\Zadanie12\Zadanie12\src\wave.asdb
+#  21:31, Sunday, May 26, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/SOFTWARERE/Aldec/Zadanie12/Zadanie12/src/wave.asdb'.
+run @1us
+# KERNEL: stopped at time: 1 us
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+uklad_tb uklad_tb uklad_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
 acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
 # Compile Entity "Uklad"
 # Compile Architecture "Uklad" of Entity "Uklad"
-# Error: COMP96_0022: Uklad.vhd : (20, 14): Identifier or character literal expected.
-# Error: COMP96_0022: Uklad.vhd : (20, 21): Identifier or character literal expected.
-# Error: COMP96_0022: Uklad.vhd : (20, 28): Identifier or character literal expected.
-# Error: COMP96_0022: Uklad.vhd : (20, 35): Identifier or character literal expected.
-# Error: COMP96_0022: Uklad.vhd : (20, 42): Identifier or character literal expected.
-# Error: COMP96_0022: Uklad.vhd : (20, 49): Identifier or character literal expected.
-# Error: COMP96_0022: Uklad.vhd : (20, 56): Identifier or character literal expected.
-# Error: COMP96_0022: Uklad.vhd : (20, 63): Identifier or character literal expected.
-# Compile failure 8 Errors 0 Warnings  Analysis time :  15.0 [ms]
-acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
-# Compile Entity "Uklad"
-# Compile Architecture "Uklad" of Entity "Uklad"
-# Error: COMP96_0617: Uklad.vhd : (25, 8): Assignment target incompatible with right side. Cannot convert 'STD_LOGIC_VECTOR' to 'kod'.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  31.0 [ms]
-acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
-# Compile Entity "Uklad"
-# Compile Architecture "Uklad" of Entity "Uklad"
-# Error: COMP96_0617: Uklad.vhd : (25, 8): Assignment target incompatible with right side. Cannot convert 'STD_LOGIC_VECTOR' to 'kod'.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
-acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
-# Compile Entity "Uklad"
-# Compile Architecture "Uklad" of Entity "Uklad"
-# Error: COMP96_0015: Uklad.vhd : (20, 45): ';' expected.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
-acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
-# Compile Entity "Uklad"
-# Compile Architecture "Uklad" of Entity "Uklad"
-# Error: COMP96_0015: Uklad.vhd : (20, 45): ';' expected.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
-acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
-# Compile Entity "Uklad"
-# Compile Architecture "Uklad" of Entity "Uklad"
-# Error: COMP96_0018: Uklad.vhd : (20, 16): Identifier expected.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  15.0 [ms]
-acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
-# Compile Entity "Uklad"
-# Compile Architecture "Uklad" of Entity "Uklad"
-# Error: COMP96_0149: Uklad.vhd : (25, 12): Explicit type conversions are allowed between closely related types only.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
-acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
-# Compile Entity "Uklad"
-# Compile Architecture "Uklad" of Entity "Uklad"
-# Error: COMP96_0149: Uklad.vhd : (25, 16): Explicit type conversions are allowed between closely related types only.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
-acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
-# Compile Entity "Uklad"
-# Compile Architecture "Uklad" of Entity "Uklad"
-# Error: COMP96_0078: Uklad.vhd : (25, 16): Unknown identifier "unsigned".
-# Error: COMP96_0133: Uklad.vhd : (25, 16): Cannot find object declaration.
-# Error: COMP96_0289: Uklad.vhd : (25, 16): Prefix of index must be an array.
-# Error: COMP96_0149: Uklad.vhd : (25, 16): Explicit type conversions are allowed between closely related types only.
-# Compile failure 4 Errors 0 Warnings  Analysis time :  31.0 [ms]
-acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
-# Compile Entity "Uklad"
-# Compile Architecture "Uklad" of Entity "Uklad"
-# Error: COMP96_0149: Uklad.vhd : (26, 16): Explicit type conversions are allowed between closely related types only.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  31.0 [ms]
-acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
-# Compile Entity "Uklad"
-# Compile Architecture "Uklad" of Entity "Uklad"
-# Warning: DAGGEN_0002: Uklad.vhd : (28, 0): Process has no effect - no sequential statements.
-# Compile success 0 Errors 1 Warnings  Analysis time :  78.0 [ms]
-acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
-# Compile Entity "Uklad"
-# Compile Architecture "Uklad" of Entity "Uklad"
-# Warning: DAGGEN_0002: Uklad.vhd : (36, 0): Process has no effect - no sequential statements.
-# Compile success 0 Errors 1 Warnings  Analysis time :  63.0 [ms]
-acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
-# Compile Entity "Uklad"
-# Compile Architecture "Uklad" of Entity "Uklad"
-# Warning: DAGGEN_0002: Uklad.vhd : (45, 0): Process has no effect - no sequential statements.
-# Compile success 0 Errors 1 Warnings  Analysis time :  47.0 [ms]
-acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
-# Compile Entity "Uklad"
-# Compile Architecture "Uklad" of Entity "Uklad"
-# Error: COMP96_0098: Uklad.vhd : (50, 6): 'BOOLEAN' type expected.
-# Error: COMP96_0098: Uklad.vhd : (52, 9): 'BOOLEAN' type expected.
-# Error: COMP96_0098: Uklad.vhd : (54, 9): 'BOOLEAN' type expected.
-# Error: COMP96_0098: Uklad.vhd : (56, 9): 'BOOLEAN' type expected.
+# Error: COMP96_0077: Uklad.vhd : (88, 17): Undefined type of expression. Expected type 'INTEGER'.
+# Error: COMP96_0077: Uklad.vhd : (89, 17): Undefined type of expression. Expected type 'INTEGER'.
+# Error: COMP96_0077: Uklad.vhd : (90, 17): Undefined type of expression. Expected type 'INTEGER'.
+# Error: COMP96_0077: Uklad.vhd : (91, 17): Undefined type of expression. Expected type 'INTEGER'.
 # Compile failure 4 Errors 0 Warnings  Analysis time :  0.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5449 kB (elbread=427 elab2=4883 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\SOFTWARERE\Aldec\Zadanie12\Zadanie12\src\wave.asdb
+#  21:33, Sunday, May 26, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/SOFTWARERE/Aldec/Zadanie12/Zadanie12/src/wave.asdb'.
+endsim
+# VSIM: Simulation has finished.
 acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
 # Compile Entity "Uklad"
 # Compile Architecture "Uklad" of Entity "Uklad"
-# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+asim -O5 +access +r +m+uklad_tb uklad_tb uklad_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5450 kB (elbread=427 elab2=4883 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\SOFTWARERE\Aldec\Zadanie12\Zadanie12\src\wave.asdb
+#  21:33, Sunday, May 26, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/SOFTWARERE/Aldec/Zadanie12/Zadanie12/src/wave.asdb'.
+run @1us
+# KERNEL: stopped at time: 1 us
 acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
 # Compile Entity "Uklad"
 # Compile Architecture "Uklad" of Entity "Uklad"
-# Error: COMP96_0015: Uklad.vhd : (56, 9): ';' expected.
-# Error: COMP96_0019: Uklad.vhd : (56, 9): Keyword 'end' expected.
-# Error: COMP96_0019: Uklad.vhd : (57, 3): Keyword 'end' expected.
-# Error: COMP96_0015: Uklad.vhd : (60, 6): ';' expected.
-# Error: COMP96_0016: Uklad.vhd : (60, 13): Design unit declaration expected.
-# Compile failure 5 Errors 0 Warnings  Analysis time :  16.0 [ms]
-acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
-# Compile Entity "Uklad"
-# Compile Architecture "Uklad" of Entity "Uklad"
-# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
-acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
-# Compile Entity "Uklad"
-# Compile Architecture "Uklad" of Entity "Uklad"
-# Error: COMP96_0015: Uklad.vhd : (54, 13): ')' expected.
-# Error: COMP96_0019: Uklad.vhd : (54, 17): Keyword 'then' expected.
-# Error: COMP96_0019: Uklad.vhd : (57, 3): Keyword 'end' expected.
-# Error: COMP96_0019: Uklad.vhd : (60, 5): Keyword 'end' expected.
-# Error: COMP96_0016: Uklad.vhd : (60, 10): Design unit declaration expected.
-# Compile failure 5 Errors 0 Warnings  Analysis time :  16.0 [ms]
-acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
-# Compile Entity "Uklad"
-# Compile Architecture "Uklad" of Entity "Uklad"
-# Error: COMP96_0019: Uklad.vhd : (58, 14): Keyword 'is' expected.
-# Error: COMP96_0019: Uklad.vhd : (60, 5): Keyword 'end' expected.
-# Error: COMP96_0019: Uklad.vhd : (61, 5): Keyword 'end' expected.
-# Error: COMP96_0019: Uklad.vhd : (62, 5): Keyword 'end' expected.
-# Error: COMP96_0016: Uklad.vhd : (62, 10): Design unit declaration expected.
-# Compile failure 5 Errors 0 Warnings  Analysis time :  16.0 [ms]
-acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
-# Compile Entity "Uklad"
-# Compile Architecture "Uklad" of Entity "Uklad"
-# Error: COMP96_0019: Uklad.vhd : (63, 7): Keyword 'case' expected.
-# Error: COMP96_0036: Uklad.vhd : (63, 9): Boolean expression expected.
-# Error: COMP96_0019: Uklad.vhd : (64, 6): Keyword 'if' expected.
-# Error: COMP96_0015: Uklad.vhd : (64, 6): ';' expected.
-# Error: COMP96_0019: Uklad.vhd : (71, 5): Keyword 'process' expected.
-# Error: COMP96_0019: Uklad.vhd : (72, 0): Keyword 'end' expected.
-# Compile failure 6 Errors 0 Warnings  Analysis time :  0.0 [ms]
-acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
-# Compile Entity "Uklad"
-# Compile Architecture "Uklad" of Entity "Uklad"
-# Error: COMP96_0617: Uklad.vhd : (59, 24): Assignment target incompatible with right side. Cannot convert 'STD_LOGIC_VECTOR' to 'INTEGER'.
-# Error: COMP96_0617: Uklad.vhd : (60, 24): Assignment target incompatible with right side. Cannot convert 'STD_LOGIC_VECTOR' to 'INTEGER'.
-# Error: COMP96_0617: Uklad.vhd : (61, 24): Assignment target incompatible with right side. Cannot convert 'STD_LOGIC_VECTOR' to 'INTEGER'.
-# Error: COMP96_0617: Uklad.vhd : (62, 24): Assignment target incompatible with right side. Cannot convert 'STD_LOGIC_VECTOR' to 'INTEGER'.
-# Error: COMP96_0301: Uklad.vhd : (58, 4): The choice 'others' must be present when all alternatives are not covered.
-# Error: COMP96_0617: Uklad.vhd : (67, 13): Assignment target incompatible with right side. Cannot convert 'INTEGER' to 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: Uklad.vhd : (68, 13): Assignment target incompatible with right side. Cannot convert 'INTEGER' to 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: Uklad.vhd : (69, 13): Assignment target incompatible with right side. Cannot convert 'INTEGER' to 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: Uklad.vhd : (70, 13): Assignment target incompatible with right side. Cannot convert 'INTEGER' to 'STD_LOGIC_VECTOR'.
-# Compile failure 9 Errors 0 Warnings  Analysis time :  31.0 [ms]
-acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
-# Compile Entity "Uklad"
-# Compile Architecture "Uklad" of Entity "Uklad"
-# Error: COMP96_0301: Uklad.vhd : (58, 4): The choice 'others' must be present when all alternatives are not covered.
-# Error: COMP96_0617: Uklad.vhd : (67, 13): Assignment target incompatible with right side. Cannot convert 'INTEGER' to 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: Uklad.vhd : (68, 13): Assignment target incompatible with right side. Cannot convert 'INTEGER' to 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: Uklad.vhd : (69, 13): Assignment target incompatible with right side. Cannot convert 'INTEGER' to 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: Uklad.vhd : (70, 13): Assignment target incompatible with right side. Cannot convert 'INTEGER' to 'STD_LOGIC_VECTOR'.
+# Error: ELBWRITE_0028: Uklad.vhd : (95, 0): The unresolved signal "stan_zaprogramuwania" received values from multiple sources at 95 and 58 lines.
+# Error: ELBWRITE_0028: Uklad.vhd : (99, 0): The unresolved signal "l1_in" received values from multiple sources at 99 and 69 lines.
+# Error: ELBWRITE_0028: Uklad.vhd : (100, 0): The unresolved signal "l2_in" received values from multiple sources at 100 and 72 lines.
+# Error: ELBWRITE_0028: Uklad.vhd : (101, 0): The unresolved signal "l3_in" received values from multiple sources at 101 and 75 lines.
+# Error: ELBWRITE_0028: Uklad.vhd : (102, 0): The unresolved signal "l4_in" received values from multiple sources at 102 and 78 lines.
 # Compile failure 5 Errors 0 Warnings  Analysis time :  0.0 [ms]
 acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
 # Compile Entity "Uklad"
 # Compile Architecture "Uklad" of Entity "Uklad"
-# Error: COMP96_0019: Uklad.vhd : (63, 14): Keyword 'end' expected.
-# Error: COMP96_0019: Uklad.vhd : (64, 4): Keyword 'case' expected.
-# Error: COMP96_0019: Uklad.vhd : (64, 8): Keyword 'if' expected.
-# Error: COMP96_0015: Uklad.vhd : (64, 8): ';' expected.
-# Error: COMP96_0029: Uklad.vhd : (64, 12): Expression expected.
-# Error: COMP96_0019: Uklad.vhd : (65, 7): Keyword 'process' expected.
-# Error: COMP96_0015: Uklad.vhd : (66, 6): ';' expected.
-# Error: COMP96_0016: Uklad.vhd : (66, 13): Design unit declaration expected.
-# Compile failure 8 Errors 0 Warnings  Analysis time :  15.0 [ms]
-acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
-# Compile Entity "Uklad"
-# Compile Architecture "Uklad" of Entity "Uklad"
-# Error: COMP96_0019: Uklad.vhd : (63, 19): Keyword 'end' expected.
-# Error: COMP96_0019: Uklad.vhd : (64, 4): Keyword 'case' expected.
-# Error: COMP96_0019: Uklad.vhd : (64, 8): Keyword 'if' expected.
-# Error: COMP96_0015: Uklad.vhd : (64, 8): ';' expected.
-# Error: COMP96_0029: Uklad.vhd : (64, 12): Expression expected.
-# Error: COMP96_0019: Uklad.vhd : (65, 7): Keyword 'process' expected.
-# Error: COMP96_0015: Uklad.vhd : (66, 6): ';' expected.
-# Error: COMP96_0016: Uklad.vhd : (66, 13): Design unit declaration expected.
-# Compile failure 8 Errors 0 Warnings  Analysis time :  0.0 [ms]
-acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
-# Compile Entity "Uklad"
-# Compile Architecture "Uklad" of Entity "Uklad"
-# Error: COMP96_0617: Uklad.vhd : (69, 13): Assignment target incompatible with right side. Cannot convert 'INTEGER' to 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: Uklad.vhd : (70, 13): Assignment target incompatible with right side. Cannot convert 'INTEGER' to 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: Uklad.vhd : (71, 13): Assignment target incompatible with right side. Cannot convert 'INTEGER' to 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: Uklad.vhd : (72, 13): Assignment target incompatible with right side. Cannot convert 'INTEGER' to 'STD_LOGIC_VECTOR'.
-# Compile failure 4 Errors 0 Warnings  Analysis time :  16.0 [ms]
-acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
-# Compile Entity "Uklad"
-# Compile Architecture "Uklad" of Entity "Uklad"
-# Error: COMP96_0617: Uklad.vhd : (73, 13): Assignment target incompatible with right side. Cannot convert 'INTEGER' to 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: Uklad.vhd : (74, 13): Assignment target incompatible with right side. Cannot convert 'INTEGER' to 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: Uklad.vhd : (75, 13): Assignment target incompatible with right side. Cannot convert 'INTEGER' to 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: Uklad.vhd : (76, 13): Assignment target incompatible with right side. Cannot convert 'INTEGER' to 'STD_LOGIC_VECTOR'.
-# Compile failure 4 Errors 0 Warnings  Analysis time :  0.0 [ms]
-acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
-# Compile Entity "Uklad"
-# Compile Architecture "Uklad" of Entity "Uklad"
-# Warning: DAGGEN_0002: Uklad.vhd : (69, 0): Process has no effect - no sequential statements.
-# Compile success 0 Errors 1 Warnings  Analysis time :  0.1 [s]
-acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
-# Compile Entity "Uklad"
-# Compile Architecture "Uklad" of Entity "Uklad"
-# Warning: DAGGEN_0002: Uklad.vhd : (69, 0): Process has no effect - no sequential statements.
-# Compile success 0 Errors 1 Warnings  Analysis time :  62.0 [ms]
-acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
-# Compile Entity "Uklad"
-# Compile Architecture "Uklad" of Entity "Uklad"
-# Warning: DAGGEN_0002: Uklad.vhd : (69, 0): Process has no effect - no sequential statements.
-# Compile success 0 Errors 1 Warnings  Analysis time :  32.0 [ms]
-acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
-# Compile Entity "Uklad"
-# Compile Architecture "Uklad" of Entity "Uklad"
-# Error: COMP96_0123: Uklad.vhd : (52, 4): Variable or constant cannot be the target of a signal assignment.
-# Error: COMP96_0143: Uklad.vhd : (52, 4): Object "zaprogramuj" cannot be written.
-# Error: COMP96_0263: Uklad.vhd : (52, 4): Type names are not allowed as primaries.
-# Compile failure 3 Errors 0 Warnings  Analysis time :  16.0 [ms]
-acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
-# Compile Entity "Uklad"
-# Compile Architecture "Uklad" of Entity "Uklad"
-# Warning: DAGGEN_0002: Uklad.vhd : (68, 0): Process has no effect - no sequential statements.
-# Compile success 0 Errors 1 Warnings  Analysis time :  62.0 [ms]
-acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
-# Compile Entity "Uklad"
-# Compile Architecture "Uklad" of Entity "Uklad"
-# Error: COMP96_0019: Uklad.vhd : (83, 2): Keyword 'when' expected.
-# Error: COMP96_0015: Uklad.vhd : (83, 2): ';' expected.
-# Compile failure 2 Errors 0 Warnings  Analysis time :  16.0 [ms]
-acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
-# Compile Entity "Uklad"
-# Compile Architecture "Uklad" of Entity "Uklad"
-# Error: ELBWRITE_0028: Uklad.vhd : (76, 0): The unresolved signal "stan_zaprogramuwania" received values from multiple sources at 76 and 52 lines.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
-acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
-# Compile Entity "Uklad"
-# Compile Architecture "Uklad" of Entity "Uklad"
-# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
-acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
-# Compile Entity "Uklad"
-# Compile Architecture "Uklad" of Entity "Uklad"
-# Error: ELBWRITE_0028: Uklad.vhd : (77, 0): The unresolved signal "stan" received values from multiple sources at 77 and 50 lines.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  15.0 [ms]
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+uklad_tb uklad_tb uklad_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5450 kB (elbread=427 elab2=4883 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\SOFTWARERE\Aldec\Zadanie12\Zadanie12\src\wave.asdb
+#  21:37, Sunday, May 26, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/SOFTWARERE/Aldec/Zadanie12/Zadanie12/src/wave.asdb'.
+run @1us
+# KERNEL: stopped at time: 1 us
 acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
 # Compile Entity "Uklad"
 # Compile Architecture "Uklad" of Entity "Uklad"
 # Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad_tb.vhd
+# Compile Entity "Uklad_tb"
+# Compile Architecture "Uklad_tb" of Entity "Uklad_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+uklad_tb uklad_tb uklad_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5450 kB (elbread=427 elab2=4884 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\SOFTWARERE\Aldec\Zadanie12\Zadanie12\src\wave.asdb
+#  21:40, Sunday, May 26, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/SOFTWARERE/Aldec/Zadanie12/Zadanie12/src/wave.asdb'.
+# VSIM: 1 object(s) traced.
+run @1us
+# KERNEL: stopped at time: 1 us
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad_tb.vhd
+# Compile Entity "Uklad_tb"
+# Compile Architecture "Uklad_tb" of Entity "Uklad_tb"
+# Error: COMP96_0078: Uklad_tb.vhd : (41, 4): Unknown identifier "port_l1k".
+# Error: COMP96_0078: Uklad_tb.vhd : (42, 4): Unknown identifier "port_l2k".
+# Error: COMP96_0078: Uklad_tb.vhd : (43, 4): Unknown identifier "port_l3k".
+# Error: COMP96_0078: Uklad_tb.vhd : (44, 4): Unknown identifier "port_l4k".
+# Error: COMP96_0133: Uklad_tb.vhd : (41, 4): Cannot find object declaration.
+# Error: COMP96_0112: Uklad_tb.vhd : (41, 4): "port_l1k" does not match the formal name.
+# Compile failure 6 Errors 0 Warnings  Analysis time :  16.0 [ms]
 acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
 # Compile Entity "Uklad"
 # Compile Architecture "Uklad" of Entity "Uklad"
-# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad_tb.vhd
+# Compile Entity "Uklad_tb"
+# Compile Architecture "Uklad_tb" of Entity "Uklad_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+uklad_tb uklad_tb uklad_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5452 kB (elbread=427 elab2=4886 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\SOFTWARERE\Aldec\Zadanie12\Zadanie12\src\wave.asdb
+#  21:42, Sunday, May 26, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/SOFTWARERE/Aldec/Zadanie12/Zadanie12/src/wave.asdb'.
+# VSIM: 4 object(s) traced.
+run @1us
+# KERNEL: stopped at time: 1 us
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+uklad_tb uklad_tb uklad_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5452 kB (elbread=427 elab2=4886 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\SOFTWARERE\Aldec\Zadanie12\Zadanie12\src\wave.asdb
+#  21:44, Sunday, May 26, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/SOFTWARERE/Aldec/Zadanie12/Zadanie12/src/wave.asdb'.
+run @1us
+# KERNEL: stopped at time: 1 us
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+uklad_tb uklad_tb uklad_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
 acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
 # Compile Entity "Uklad"
 # Compile Architecture "Uklad" of Entity "Uklad"
 # Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5452 kB (elbread=427 elab2=4886 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\SOFTWARERE\Aldec\Zadanie12\Zadanie12\src\wave.asdb
+#  21:45, Sunday, May 26, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/SOFTWARERE/Aldec/Zadanie12/Zadanie12/src/wave.asdb'.
+run @1us
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 130 ns,  Iteration: 2,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 135 ns,  Iteration: 0,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 335 ns,  Iteration: 2,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 340 ns,  Iteration: 0,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 515 ns,  Iteration: 2,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 520 ns,  Iteration: 0,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 695 ns,  Iteration: 2,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 700 ns,  Iteration: 0,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 925 ns,  Iteration: 2,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 930 ns,  Iteration: 0,  Instance: /Uklad_tb/utt,  Process: line__93.
+# KERNEL: stopped at time: 1 us
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+uklad_tb uklad_tb uklad_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
 acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
 # Compile Entity "Uklad"
 # Compile Architecture "Uklad" of Entity "Uklad"
-# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5452 kB (elbread=427 elab2=4886 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\SOFTWARERE\Aldec\Zadanie12\Zadanie12\src\wave.asdb
+#  21:46, Sunday, May 26, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/SOFTWARERE/Aldec/Zadanie12/Zadanie12/src/wave.asdb'.
+run @1us
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 130 ns,  Iteration: 2,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 135 ns,  Iteration: 0,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 335 ns,  Iteration: 2,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 340 ns,  Iteration: 0,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 515 ns,  Iteration: 2,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 520 ns,  Iteration: 0,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 695 ns,  Iteration: 2,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 700 ns,  Iteration: 0,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 925 ns,  Iteration: 2,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 930 ns,  Iteration: 0,  Instance: /Uklad_tb/utt,  Process: line__93.
+# KERNEL: stopped at time: 1 us
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+uklad_tb uklad_tb uklad_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5452 kB (elbread=427 elab2=4886 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\SOFTWARERE\Aldec\Zadanie12\Zadanie12\src\wave.asdb
+#  21:47, Sunday, May 26, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/SOFTWARERE/Aldec/Zadanie12/Zadanie12/src/wave.asdb'.
+run @1us
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 130 ns,  Iteration: 2,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 135 ns,  Iteration: 0,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 335 ns,  Iteration: 2,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : pin changed
+# EXECUTION:: Time: 335 ns,  Iteration: 2,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 340 ns,  Iteration: 0,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 515 ns,  Iteration: 2,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 520 ns,  Iteration: 0,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 695 ns,  Iteration: 2,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 700 ns,  Iteration: 0,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 925 ns,  Iteration: 2,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 930 ns,  Iteration: 0,  Instance: /Uklad_tb/utt,  Process: line__93.
+# KERNEL: stopped at time: 1 us
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+uklad_tb uklad_tb uklad_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5452 kB (elbread=427 elab2=4886 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\SOFTWARERE\Aldec\Zadanie12\Zadanie12\src\wave.asdb
+#  21:47, Sunday, May 26, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/SOFTWARERE/Aldec/Zadanie12/Zadanie12/src/wave.asdb'.
+run @1us
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 130 ns,  Iteration: 2,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 135 ns,  Iteration: 0,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 335 ns,  Iteration: 2,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : pin changed
+# EXECUTION:: Time: 335 ns,  Iteration: 2,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 340 ns,  Iteration: 0,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 515 ns,  Iteration: 2,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 520 ns,  Iteration: 0,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 695 ns,  Iteration: 2,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 700 ns,  Iteration: 0,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 925 ns,  Iteration: 2,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 930 ns,  Iteration: 0,  Instance: /Uklad_tb/utt,  Process: line__93.
+# KERNEL: stopped at time: 1 us
+run @2us
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 1130 ns,  Iteration: 2,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : pin changed
+# EXECUTION:: Time: 1130 ns,  Iteration: 2,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 1135 ns,  Iteration: 0,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 1310 ns,  Iteration: 2,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 1315 ns,  Iteration: 0,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 1490 ns,  Iteration: 2,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 1495 ns,  Iteration: 0,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 1720 ns,  Iteration: 2,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 1725 ns,  Iteration: 0,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 1925 ns,  Iteration: 2,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : pin changed
+# EXECUTION:: Time: 1925 ns,  Iteration: 2,  Instance: /Uklad_tb/utt,  Process: line__93.
+# EXECUTION:: NOTE   : process started
+# EXECUTION:: Time: 1930 ns,  Iteration: 0,  Instance: /Uklad_tb/utt,  Process: line__93.
+# KERNEL: stopped at time: 2 us
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+uklad_tb uklad_tb uklad_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Error: COMP96_0078: Uklad.vhd : (113, 2): Unknown identifier "temp".
+# Error: COMP96_0133: Uklad.vhd : (113, 2): Cannot find object declaration.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.0 [ms]
+# ELBREAD: Elaboration process.
+# ULM: Warning: ULM_0021 Architecture "uklad" of entity "zadanie12.uklad" is not up-to-date. Please recompile file "D:/SOFTWARERE/Aldec/Zadanie12/Zadanie12/src/Uklad.vhd".
+# ELBREAD: Error: ELBREAD_0081 Uklad_tb.vhd (30): Design unit Uklad instantiated in zadanie12.Uklad_tb not found in searched libraries: zadanie12.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Error: COMP96_0078: Uklad.vhd : (113, 2): Unknown identifier "przeprogramowanie".
+# Error: COMP96_0133: Uklad.vhd : (113, 2): Cannot find object declaration.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad_tb.vhd
+# Compile Entity "Uklad_tb"
+# Compile Architecture "Uklad_tb" of Entity "Uklad_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+uklad_tb uklad_tb uklad_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5452 kB (elbread=427 elab2=4886 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\SOFTWARERE\Aldec\Zadanie12\Zadanie12\src\wave.asdb
+#  21:52, Sunday, May 26, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/SOFTWARERE/Aldec/Zadanie12/Zadanie12/src/wave.asdb'.
+# Warning: WAVEFORM: Object matching /Uklad_tb/temp not found in D:/SOFTWARERE/Aldec/Zadanie12/Zadanie12/src/wave.asdb.
+# VSIM: 1 object(s) traced.
+run @2us
+# KERNEL: stopped at time: 2 us
+acom -O3 -e 100 -work zadanie12 -2002  $dsn/src/Uklad.vhd $dsn/src/Uklad_tb.vhd
+# Compile Entity "Uklad"
+# Compile Architecture "Uklad" of Entity "Uklad"
+# Compile Entity "Uklad_tb"
+# Compile Architecture "Uklad_tb" of Entity "Uklad_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+uklad_tb uklad_tb uklad_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5452 kB (elbread=427 elab2=4886 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\SOFTWARERE\Aldec\Zadanie12\Zadanie12\src\wave.asdb
+#  21:55, Sunday, May 26, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/SOFTWARERE/Aldec/Zadanie12/Zadanie12/src/wave.asdb'.
+run @2us
+# KERNEL: stopped at time: 2 us
+# Waveform file 'D:/SOFTWARERE/Aldec/Zadanie12/Zadanie12/src/przebiegi_czasowe.awc' connected to 'D:/SOFTWARERE/Aldec/Zadanie12/Zadanie12/src/przebiegi_czasowe.asdb'.
+# Adding file D:\SOFTWARERE\Aldec\Zadanie12\Zadanie12\src\przebiegi_czasowe.asdb ... Done
+# Adding file D:\SOFTWARERE\Aldec\Zadanie12\Zadanie12\src\przebiegi_czasowe.awc ... Done

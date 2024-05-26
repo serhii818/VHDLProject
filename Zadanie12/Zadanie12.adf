@@ -19,10 +19,14 @@ FAMILY=
 [Files]
 /Uklad.vhd=-1
 /Uklad_tb.vhd=-1
+/przebiegi_czasowe.asdb=-1
+/przebiegi_czasowe.awc=-1
 [Files.Data]
 .\src\Uklad.vhd=VHDL Source Code
 .\src\Uklad_tb.vhd=VHDL Source Code
+.\src\przebiegi_czasowe.asdb=Accelerated Waveform File
+.\src\przebiegi_czasowe.awc=Accelerated Waveform Configuration
 [HierarchyViewer]
-HierarchyInformation=uklad|uklad|0
+HierarchyInformation=uklad_tb|uklad_tb|0
 ShowHide=ShowTopLevel
 Selected=
