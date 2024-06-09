@@ -1,0 +1,115 @@
+# Design: Design zadanie_11 already active.
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: Flow Manager: Not Defined
+acom -reorder -O3 -e 100 -work zadanie_11 -2002  $dsn/src/number_multiplyer.vhd
+# Compile Entity "number_multiplyer"
+# Compile Architecture "a1" of Entity "number_multiplyer"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# Compile Entity "number_multiplyer"
+# Error: COMP96_0090: number_multiplyer.vhd : (9, 22): Expected array type.
+# Error: COMP96_0331: number_multiplyer.vhd : (16, 27): Syntax error in expression.
+# Error: COMP96_0015: number_multiplyer.vhd : (17, 1): ')' expected.
+# Error: COMP96_0015: number_multiplyer.vhd : (19, 2): ';' expected.
+# Error: COMP96_0019: number_multiplyer.vhd : (22, 0): Keyword 'begin' expected.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  62.0 [ms]
+acom -reorder -O3 -e 100 -work zadanie_11 -2002  $dsn/src/number_multiplyer.vhd
+# Compile Entity "number_multiplyer"
+# Compile Architecture "a1" of Entity "number_multiplyer"
+# Error: COMP96_0331: number_multiplyer.vhd : (16, 27): Syntax error in expression.
+# Error: COMP96_0015: number_multiplyer.vhd : (16, 28): ')' expected.
+# Error: COMP96_0015: number_multiplyer.vhd : (17, 1): ';' expected.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work zadanie_11 -2002  $dsn/src/number_multiplyer.vhd
+# Compile Entity "number_multiplyer"
+# Compile Architecture "a1" of Entity "number_multiplyer"
+# Error: COMP96_0077: number_multiplyer.vhd : (16, 26): Undefined type of expression. Expected type 'rom_type'.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work zadanie_11 -2002  $dsn/src/number_multiplyer.vhd
+# Compile Entity "number_multiplyer"
+# Compile Architecture "a1" of Entity "number_multiplyer"
+# Error: COMP96_0367: number_multiplyer.vhd : (17, 1): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (17, 9): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (17, 17): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (17, 25): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (17, 33): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (17, 41): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (17, 49): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (17, 57): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (17, 65): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (17, 73): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (18, 1): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (18, 9): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (18, 17): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (18, 25): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (18, 33): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (18, 41): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (18, 49): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (18, 57): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (18, 65): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (18, 73): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (18, 81): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (19, 1): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (19, 9): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (19, 17): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (19, 25): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (19, 33): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (19, 41): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (19, 49): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (19, 57): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (19, 65): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (19, 73): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (19, 81): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (20, 1): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (20, 9): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (20, 17): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (20, 25): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (20, 33): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (20, 41): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (20, 49): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (20, 57): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (20, 65): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (20, 73): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (20, 81): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (21, 1): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (21, 9): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (21, 17): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (21, 25): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (21, 33): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (21, 41): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (21, 49): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (21, 57): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (21, 65): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (21, 73): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (21, 81): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (22, 1): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (22, 9): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (22, 17): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (22, 25): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (22, 33): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (22, 41): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (22, 49): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (22, 57): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (22, 65): Improper array length (12). Expected length is 8.
+# Error: COMP96_0367: number_multiplyer.vhd : (22, 73): Improper array length (12). Expected length is 8.
+# Compile failure 64 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work zadanie_11 -2002  $dsn/src/number_multiplyer.vhd
+# Compile Entity "number_multiplyer"
+# Compile Architecture "a1" of Entity "number_multiplyer"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -O3 -e 100 -work zadanie_11 -2002  $dsn/src/number_multiplyer.vhd
+# Compile Entity "number_multiplyer"
+# Compile Architecture "a1" of Entity "number_multiplyer"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -O3 -e 100 -work zadanie_11 -2002  $dsn/src/number_multiplyer.vhd $dsn/src/square_function.vhd
+# Compile Entity "number_multiplyer"
+# Compile Architecture "a1" of Entity "number_multiplyer"
+# Compile Entity "square_function"
+# Compile Architecture "a1" of Entity "square_function"
+# Error: COMP96_0331: square_function.vhd : (25, 1): Syntax error in expression.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work zadanie_11 -2002  $dsn/src/square_function.vhd
+# Compile Entity "square_function"
+# Compile Architecture "a1" of Entity "square_function"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]

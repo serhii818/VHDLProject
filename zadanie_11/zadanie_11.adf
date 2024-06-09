@@ -1,0 +1,28 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=zadanie_11
+[Library]
+zadanie_11=.\zadanie_11\zadanie_11.lib
+[$LibMap$]
+zadanie_11=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+[Files]
+/number_multiplyer.vhd=-1
+/square_function.vhd=-1
+[Files.Data]
+.\src\number_multiplyer.vhd=VHDL Source Code
+.\src\square_function.vhd=VHDL Source Code
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=
