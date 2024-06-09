@@ -1,1 +1,0 @@
--w -d D:/SOFTWARERE/Aldec/Zadanie12/Zadanie12/compile -s D:/SOFTWARERE/Aldec/Zadanie12/library.cfg -j D:/SOFTWARERE/Aldec/Zadanie12/Zadanie12/projlib.cfg -work zadanie12 -O3 -e 100 -work zadanie12 -2002 D:/SOFTWARERE/Aldec/Zadanie12/Zadanie12/src/Uklad.vhd D:/SOFTWARERE/Aldec/Zadanie12/Zadanie12/src/Uklad_tb.vhd 
