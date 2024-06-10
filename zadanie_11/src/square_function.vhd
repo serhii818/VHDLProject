@@ -12,7 +12,7 @@ end square_function;
 
 
 architecture a1 of square_function is
-type rom_type is array(63 downto 0) of std_logic_vector(11 downto 0);
+type rom_type is array(0 to 63) of std_logic_vector(11 downto 0);
 signal ROM : rom_type := (
 X"000", X"001", X"004", X"009", X"010", X"019", X"024", X"031",	  -- tabla kwadratów
 X"040", X"051", X"064", X"079", X"090", X"0a9", X"0c4", X"0e1",

@@ -19,10 +19,12 @@ FAMILY=
 [Files]
 /number_multiplyer.vhd=-1
 /square_function.vhd=-1
+/testbench.vhd=-1
 [Files.Data]
 .\src\number_multiplyer.vhd=VHDL Source Code
 .\src\square_function.vhd=VHDL Source Code
+.\src\testbench.vhd=VHDL Source Code
 [HierarchyViewer]
-HierarchyInformation=
+HierarchyInformation=testbench|behavior|0
 ShowHide=ShowTopLevel
 Selected=

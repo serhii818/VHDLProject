@@ -1,2 +1,3 @@
 .\src\number_multiplyer.vhd
 .\src\square_function.vhd
+.\src\testbench.vhd

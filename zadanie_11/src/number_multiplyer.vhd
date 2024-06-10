@@ -12,7 +12,7 @@ end number_multiplyer;
 
 
 architecture a1 of number_multiplyer is
-type rom_type is array(63 downto 0) of std_logic_vector(11 downto 0);
+type rom_type is array(0 to 63) of std_logic_vector(11 downto 0);
 signal ROM : rom_type := (
 X"000", X"005", X"00a", X"00f", X"014", X"019", X"01e", X"023", X"028", X"02d",		-- tabelka wartosci przemnozonych przez 5
 X"032", X"037", X"03c", X"041", X"046", X"04b", X"050", X"055", X"05a", X"05f", X"064",

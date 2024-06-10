@@ -1,115 +1,173 @@
-# Design: Design zadanie_11 already active.
-# DESIGN: Default Design Language: VHDL
-# DESIGN: Default BDE Language: VHDL
-# DESIGN: Flow Manager: Not Defined
-acom -reorder -O3 -e 100 -work zadanie_11 -2002  $dsn/src/number_multiplyer.vhd
-# Compile Entity "number_multiplyer"
-# Compile Architecture "a1" of Entity "number_multiplyer"
-# Incorrect order of units detected.
-# Automatic reorder and incremental recompilation of required units in progress.
-# Compile Entity "number_multiplyer"
-# Error: COMP96_0090: number_multiplyer.vhd : (9, 22): Expected array type.
-# Error: COMP96_0331: number_multiplyer.vhd : (16, 27): Syntax error in expression.
-# Error: COMP96_0015: number_multiplyer.vhd : (17, 1): ')' expected.
-# Error: COMP96_0015: number_multiplyer.vhd : (19, 2): ';' expected.
-# Error: COMP96_0019: number_multiplyer.vhd : (22, 0): Keyword 'begin' expected.
-# Compile failure 5 Errors 0 Warnings  Analysis time :  62.0 [ms]
-acom -reorder -O3 -e 100 -work zadanie_11 -2002  $dsn/src/number_multiplyer.vhd
-# Compile Entity "number_multiplyer"
-# Compile Architecture "a1" of Entity "number_multiplyer"
-# Error: COMP96_0331: number_multiplyer.vhd : (16, 27): Syntax error in expression.
-# Error: COMP96_0015: number_multiplyer.vhd : (16, 28): ')' expected.
-# Error: COMP96_0015: number_multiplyer.vhd : (17, 1): ';' expected.
-# Compile failure 3 Errors 0 Warnings  Analysis time :  0.0 [ms]
-acom -O3 -e 100 -work zadanie_11 -2002  $dsn/src/number_multiplyer.vhd
-# Compile Entity "number_multiplyer"
-# Compile Architecture "a1" of Entity "number_multiplyer"
-# Error: COMP96_0077: number_multiplyer.vhd : (16, 26): Undefined type of expression. Expected type 'rom_type'.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
-acom -O3 -e 100 -work zadanie_11 -2002  $dsn/src/number_multiplyer.vhd
-# Compile Entity "number_multiplyer"
-# Compile Architecture "a1" of Entity "number_multiplyer"
-# Error: COMP96_0367: number_multiplyer.vhd : (17, 1): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (17, 9): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (17, 17): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (17, 25): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (17, 33): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (17, 41): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (17, 49): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (17, 57): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (17, 65): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (17, 73): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (18, 1): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (18, 9): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (18, 17): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (18, 25): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (18, 33): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (18, 41): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (18, 49): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (18, 57): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (18, 65): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (18, 73): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (18, 81): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (19, 1): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (19, 9): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (19, 17): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (19, 25): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (19, 33): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (19, 41): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (19, 49): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (19, 57): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (19, 65): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (19, 73): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (19, 81): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (20, 1): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (20, 9): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (20, 17): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (20, 25): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (20, 33): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (20, 41): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (20, 49): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (20, 57): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (20, 65): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (20, 73): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (20, 81): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (21, 1): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (21, 9): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (21, 17): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (21, 25): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (21, 33): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (21, 41): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (21, 49): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (21, 57): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (21, 65): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (21, 73): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (21, 81): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (22, 1): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (22, 9): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (22, 17): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (22, 25): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (22, 33): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (22, 41): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (22, 49): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (22, 57): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (22, 65): Improper array length (12). Expected length is 8.
-# Error: COMP96_0367: number_multiplyer.vhd : (22, 73): Improper array length (12). Expected length is 8.
-# Compile failure 64 Errors 0 Warnings  Analysis time :  15.0 [ms]
-acom -O3 -e 100 -work zadanie_11 -2002  $dsn/src/number_multiplyer.vhd
-# Compile Entity "number_multiplyer"
-# Compile Architecture "a1" of Entity "number_multiplyer"
-# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
-acom -O3 -e 100 -work zadanie_11 -2002  $dsn/src/number_multiplyer.vhd
-# Compile Entity "number_multiplyer"
-# Compile Architecture "a1" of Entity "number_multiplyer"
-# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
-acom -O3 -e 100 -work zadanie_11 -2002  $dsn/src/number_multiplyer.vhd $dsn/src/square_function.vhd
-# Compile Entity "number_multiplyer"
-# Compile Architecture "a1" of Entity "number_multiplyer"
-# Compile Entity "square_function"
-# Compile Architecture "a1" of Entity "square_function"
-# Error: COMP96_0331: square_function.vhd : (25, 1): Syntax error in expression.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
 acom -O3 -e 100 -work zadanie_11 -2002  $dsn/src/square_function.vhd
 # Compile Entity "square_function"
 # Compile Architecture "a1" of Entity "square_function"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work zadanie_11 -2002  $dsn/src/testbench.vhd
+# Compile Entity "testbench"
+# Compile Architecture "behavior" of Entity "testbench"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+testbench testbench behavior
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6554 kB (elbread=427 elab2=5988 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\SOFTWARERE\Aldec\Zdania\zdanie_11\VHDLProject\zadanie_11\src\wave.asdb
+#  16:52, Monday, June 10, 2024
+#  Simulation has been initialized
+# VSIM: 3 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'D:/SOFTWARERE/Aldec/Zdania/zdanie_11/VHDLProject/zadanie_11/src/wave.asdb'.
+run @100ns
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /testbench/uut,  Process: line__28.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /testbench/mult,  Process: line__27.
+# EXECUTION:: ERROR  : Test 1 failed
+# EXECUTION:: Time: 10 ns,  Iteration: 0,  Instance: /testbench,  Process: stim_proc.
+# EXECUTION:: ERROR  : Test 2 failed
+# EXECUTION:: Time: 20 ns,  Iteration: 0,  Instance: /testbench,  Process: stim_proc.
+# EXECUTION:: ERROR  : Test 3 failed
+# EXECUTION:: Time: 30 ns,  Iteration: 0,  Instance: /testbench,  Process: stim_proc.
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom -O3 -e 100 -work zadanie_11 -2002  $dsn/src/number_multiplyer.vhd $dsn/src/square_function.vhd $dsn/src/testbench.vhd
+# Compile Entity "number_multiplyer"
+# Compile Architecture "a1" of Entity "number_multiplyer"
+# Compile Entity "square_function"
+# Compile Architecture "a1" of Entity "square_function"
+# Compile Entity "testbench"
+# Compile Architecture "behavior" of Entity "testbench"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+testbench testbench behavior
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6554 kB (elbread=427 elab2=5988 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\SOFTWARERE\Aldec\Zdania\zdanie_11\VHDLProject\zadanie_11\src\wave.asdb
+#  16:53, Monday, June 10, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/SOFTWARERE/Aldec/Zdania/zdanie_11/VHDLProject/zadanie_11/src/wave.asdb'.
+run @100ns
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /testbench/uut,  Process: line__28.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /testbench/mult,  Process: line__27.
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom -O3 -e 100 -work zadanie_11 -2002  $dsn/src/testbench.vhd
+# Compile Entity "testbench"
+# Compile Architecture "behavior" of Entity "testbench"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+testbench testbench behavior
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6554 kB (elbread=427 elab2=5988 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\SOFTWARERE\Aldec\Zdania\zdanie_11\VHDLProject\zadanie_11\src\wave.asdb
+#  16:55, Monday, June 10, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/SOFTWARERE/Aldec/Zdania/zdanie_11/VHDLProject/zadanie_11/src/wave.asdb'.
+run @100ns
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /testbench/uut,  Process: line__28.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /testbench/mult,  Process: line__27.
+# EXECUTION:: ERROR  : Test 3 failed
+# EXECUTION:: Time: 40 ns,  Iteration: 0,  Instance: /testbench,  Process: stim_proc.
+# EXECUTION:: ERROR  : Test 3 failed
+# EXECUTION:: Time: 50 ns,  Iteration: 0,  Instance: /testbench,  Process: stim_proc.
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work zadanie_11 -2002  $dsn/src/testbench.vhd
+# Compile Entity "testbench"
+# Compile Architecture "behavior" of Entity "testbench"
 # Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+asim -O5 +access +r +m+testbench testbench behavior
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6555 kB (elbread=427 elab2=5988 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\SOFTWARERE\Aldec\Zdania\zdanie_11\VHDLProject\zadanie_11\src\wave.asdb
+#  16:57, Monday, June 10, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/SOFTWARERE/Aldec/Zdania/zdanie_11/VHDLProject/zadanie_11/src/wave.asdb'.
+run @100ns
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /testbench/uut,  Process: line__28.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /testbench/mult,  Process: line__27.
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.

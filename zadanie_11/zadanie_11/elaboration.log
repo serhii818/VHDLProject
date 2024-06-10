@@ -1,0 +1,37 @@
+Active-HDL 15.0.261.9132 2024-06-10 16:57:07
+
+Elaboration top modules:
+Architecture                  behavior(testbench)
+
+
+-------------------------------------------------------------------------------------------------------
+Entity            | Architecture | Library    | Info | Compiler Version          | Compilation Options
+-------------------------------------------------------------------------------------------------------
+testbench         | behavior     | zadanie_11 |      | 15.0.261.9132 (Windows64) | -O3
+square_function   | a1           | zadanie_11 |      | 15.0.261.9132 (Windows64) | -O3
+number_multiplyer | a1           | zadanie_11 |      | 15.0.261.9132 (Windows64) | -O3
+-------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------
+VHDL Package                     | Library    | Info | Compiler Version          | Compilation Options
+-------------------------------------------------------------------------------------------------------
+standard                         | std        |      |                           | <unavailable>
+TEXTIO                           | std        |      | 15.0.261.9132 (Windows64) |  -2019
+std_logic_1164                   | ieee       |      | 15.0.261.9132 (Windows64) |  -2008
+std_logic_arith                  | ieee       |      | 15.0.261.9132 (Windows64) | <unavailable>
+STD_LOGIC_UNSIGNED               | ieee       |      | 15.0.261.9132 (Windows64) | <unavailable>
+-------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------
+Library                          | Comment
+-------------------------------------------------------------------------------------------------------
+ieee                             | Standard IEEE packages library
+std                              | Standard VHDL library
+zadanie_11                       | None
+-------------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+testbench testbench behavior
+
+
+The performance of simulation is reduced. Version Student Edition
